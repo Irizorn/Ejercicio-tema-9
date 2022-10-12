@@ -31,8 +31,8 @@ public class Main {
 
 class Persona{
     private String nombre;
-    private Integer edad;
-    private Integer nTelefono;
+    private int edad;
+    private int nTelefono;
 
     public String getNombre() {
         return nombre;
@@ -42,41 +42,41 @@ class Persona{
         this.nombre = nombre;
     }
 
-    public Integer getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(Integer edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
-    public Integer getnTelefono() {
+    public int getnTelefono() {
         return nTelefono;
     }
 
-    public void setnTelefono(Integer nTelefono) {
+    public void setnTelefono(int nTelefono) {
         this.nTelefono = nTelefono;
     }
 }
 class Cliente extends Persona {
-    private Double Credito;
+    private double Credito;
 
-    public Double getCredito() {
+    public double getCredito() {
         return Credito;
     }
 
-    public void setCredito(Double credito) {
+    public void setCredito(double credito) {
         Credito = credito;
     }
 }
 
 class Trabajador extends Persona{
-        private Double Salario;
+        private double Salario;
 
-        public Double getSalario() {
+        public double getSalario() {
             return Salario;
         }
-        public void setSalario(Double salario) {
+        public void setSalario(double salario) {
             Salario = salario;
         }
     }
